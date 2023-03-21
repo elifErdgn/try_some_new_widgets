@@ -8,7 +8,6 @@ import 'package:try_some_new_widgets/pages/http_methods_CodeX/homeScreenCodeX.da
 import 'package:try_some_new_widgets/pages/postman_kullanmak/postman_deneme_1.dart';
 import 'Widgets/custom_app_bar.dart';
 import 'pages/jsondersgibiicerik/json_ders_gibi_icerik.dart';
-import 'riverpod-eticaret/e-ticaret_home.dart';
 
 class Http_Screens extends StatelessWidget {
   const Http_Screens({Key? key}) : super(key: key);
@@ -21,68 +20,68 @@ class Http_Screens extends StatelessWidget {
         child: Column(
           children: [
             SizedBox(height: 50),
-            // WidgetButton(
-            //   title: 'Responsive ve Api Tasarımı - fade animasyonu' ,
-            //   buttonColor: Colors.pink,
-            //   textColor: Colors.black,
-            //   press: () {
-            //     Navigator.push(context,
-            //         MaterialPageRoute(builder: (context) => UiDesign2()));
-            //   },
-            // ),
-            // WidgetButton(
-            //   title: 'Http + GET, DELETE, PATCH, PUT Butonları',
-            //   buttonColor: Colors.blue.shade900,
-            //   textColor: Colors.black,
-            //   press: () {
-            //     Navigator.push(context,
-            //         MaterialPageRoute(builder: (context) => ForJsonHomePage()));
-            //   },
-            // ),
-            // WidgetButton(
-            //   title: 'Mockapi ile kendi json CRUD',
-            //   buttonColor: Colors.pink.shade900,
-            //   textColor: Colors.black,
-            //   press: () {
-            //     Navigator.push(
-            //         context,
-            //         MaterialPageRoute(
-            //             builder: (context) => CRUSoperationsPage()));
-            //   },
-            // ),
-            // WidgetButton(
-            //   title: 'CodeX HTTP Methods (LED)',
-            //   buttonColor: Colors.orange.shade900,
-            //   textColor: Colors.black,
-            //   press: () {
-            //     Navigator.push(context,
-            //         MaterialPageRoute(builder: (context) => HomeScreenCodeX()));
-            //   },
-            // ),
-            // WidgetButton(
-            //   title: 'Jsonın ne olduğunu öğreniyoruz',
-            //   buttonColor: Colors.green.shade900,
-            //   textColor: Colors.black,
-            //   press: () {
-            //     Get.to(() => JsonDersGibiIcerik(),
-            //         transition: Transition.rightToLeft,
-            //         duration: Duration(
-            //           milliseconds: 700,
-            //         ));
-            //   },
-            // ),
-            // WidgetButton(
-            //   title: 'Postman Kullanmayı Deniyoruz',
-            //   buttonColor: Colors.yellow.shade800,
-            //   textColor: Colors.black,
-            //   press: () {
-            //     Get.to(() => PostmanKullanmak1(),
-            //         transition: Transition.rightToLeft,
-            //         duration: Duration(
-            //           milliseconds: 700,
-            //         ));
-            //   },
-            // ),
+            WidgetButton(
+              title: 'Responsive ve Api Tasarımı - fade animasyonu' ,
+              buttonColor: Colors.pink,
+              textColor: Colors.black,
+              press: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => UiDesign2()));
+              },
+            ),
+            WidgetButton(
+              title: 'Http + GET, DELETE, PATCH, PUT Butonları',
+              buttonColor: Colors.blue.shade900,
+              textColor: Colors.black,
+              press: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => ForJsonHomePage()));
+              },
+            ),
+            WidgetButton(
+              title: 'Mockapi ile kendi json CRUD',
+              buttonColor: Colors.pink.shade900,
+              textColor: Colors.black,
+              press: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => CRUSoperationsPage()));
+              },
+            ),
+            WidgetButton(
+              title: 'CodeX HTTP Methods (LED)',
+              buttonColor: Colors.orange.shade900,
+              textColor: Colors.black,
+              press: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => HomeScreenCodeX()));
+              },
+            ),
+            WidgetButton(
+              title: 'Jsonın ne olduğunu öğreniyoruz',
+              buttonColor: Colors.green.shade900,
+              textColor: Colors.black,
+              press: () {
+                Get.to(() => JsonDersGibiIcerik(),
+                    transition: Transition.rightToLeft,
+                    duration: Duration(
+                      milliseconds: 700,
+                    ));
+              },
+            ),
+            WidgetButton(
+              title: 'Postman Kullanmayı Deniyoruz',
+              buttonColor: Colors.yellow.shade800,
+              textColor: Colors.black,
+              press: () {
+                Get.to(() => PostmanKullanmak1(),
+                    transition: Transition.rightToLeft,
+                    duration: Duration(
+                      milliseconds: 700,
+                    ));
+              },
+            ),
             WidgetButton(
               title: 'Login&Register Node JS',
               buttonColor: Colors.teal,
