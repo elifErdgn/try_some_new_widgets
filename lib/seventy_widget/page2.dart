@@ -234,6 +234,39 @@ class _Page2State extends State<Page2> {
       ],
     );
   }
+
+  Widget fontDegis() {
+    bool _first = true;
+    double _fontSize = 60;
+    Color _color = Colors.blue;
+    return Column(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        SizedBox(
+          height: 120,
+          child: AnimatedDefaultTextStyle(
+            duration: Duration(milliseconds: 300),
+            style: TextStyle(
+              fontSize: _fontSize,
+              color: _color,
+              fontWeight: FontWeight.bold,
+            ),
+            child: Text("FLUTTER"),
+          ),
+        ),
+        TextButton(
+          onPressed: () {
+            setState(() {
+              _fontSize = _first ? 90 : 60;
+              _color = _first ? Colors.blue : Colors.red;
+              _first = !_first;
+            });
+          },
+          child: Text("Switch"),
+        )
+      ],
+    );
+  }
 }
 
 class silinebilenListWidget extends StatefulWidget {
