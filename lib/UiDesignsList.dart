@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:try_some_new_widgets/http_screens.dart';
-import 'package:try_some_new_widgets/pages/InstagramClone/homepage.dart';
 import 'package:try_some_new_widgets/pages/LoginScreens/login_ekranlari.dart';
 import 'package:try_some_new_widgets/pages/coffeeApp/coffeeAppHomePage.dart';
 import 'package:try_some_new_widgets/pages/tek_sayfa_tasarimlarimiz/pinterest_homePage.dart';
