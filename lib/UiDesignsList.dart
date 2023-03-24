@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:try_some_new_widgets/http_screens.dart';
 import 'package:try_some_new_widgets/pages/LoginScreens/login_ekranlari.dart';
 import 'package:try_some_new_widgets/pages/coffeeApp/coffeeAppHomePage.dart';
 import 'package:try_some_new_widgets/pages/tek_sayfa_tasarimlarimiz/pinterest_homePage.dart';
@@ -72,18 +71,7 @@ class UiDesignsListScreen extends StatelessWidget {
             //     );
             //   },
             // ),
-            WidgetButton(
-              title: 'HTTP PROJERLERİ',
-              buttonColor: Colors.pink,
-              textColor: Colors.black,
-              press: () {
-                Get.to(
-                  () => Http_Screens(),
-                  transition: Transition.fade,
-                  duration: Duration(milliseconds: 700),
-                );
-              },
-            ),
+
             // WidgetButton(
             //   title: 'ONBOARD',
             //   buttonColor: Colors.deepPurple,
